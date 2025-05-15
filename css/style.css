@@ -526,6 +526,19 @@ textarea.form-control {
 .js .animate-box {
   opacity: 0;
 }
+@media (max-width: 768px) {
+  .project-info {
+    opacity: 1 !important; /* Always show the text */
+    transform: translateY(0) !important; /* Move it into view */
+    visibility: visible !important;
+  }
 
+  .project-box:hover .project-info {
+    /* Disable hover effect */
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
