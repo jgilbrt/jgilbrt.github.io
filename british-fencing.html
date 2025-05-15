@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>British Fencing UX Case Study</title>
+<link rel="stylesheet" href="css/British-fencing.css">
+</head>
+<body>
+
+  <!-- Top bar -->
+  <div class="top-bar" id="topBar">
+    <a href="index.html"><img src="https://framerusercontent.com/images/KLa9MeKErkflxRfNrbE6b4ExroI.png" style="width:24px; filter: saturate(0);"></a>
+  </div>
+
+  <!-- Side navigation -->
+  <nav class="side-nav">
+    <a href="#intro">Intro</a>
+    <a href="#research">Research</a>
+    <a href="#problem">Problem</a>
+    <a href="#ideation">Ideation</a>
+    <a href="#prototype">Prototype</a>
+  </nav>
+
+  <!-- Main content -->
+  <main>
+
+    <!-- Hero Title -->
+    <section class= "header">
+      <h1>British Fencing Redesign</h1>
+      <p>Increasing usability and satisfaction through information architecture improvements.</p>
+    </section>
+
+    <!-- Hero Image -->
+    <section>
+      <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExempxMHpiZG9vdnJhYW5tODNvaDBnOTB3ZjYxdzhpZjhkcWVpZGJhciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT0xeM8IHoLXXdIr5e/giphy.gif" alt="Placeholder GIF" class="gif">
+    </section>
+
+    <!-- Side nav linked sections only -->
+    <div class="section-wrapper">
+      <section class="section" id="intro">
+        <h2>Intro</h2>
+        <p>Information Architecture Project - 22% increase in user satisfaction.
+British Fencing, the governing body for fencing in the UK asked us to overhaul the site’s information architecture to improve usability for existing fencers, coaches and referees looking for specific resources as well as newcomers exploring the sport for the first time.
+Given the 3-week timeline for this agile sprint, our focus was less on delivering a polished prototype and more so on providing a new way to categorise information backed by quality user research.</p>
+      </section>
+    </div>
+
+    <div class="section-wrapper">
+      <section class="section" id="research">
+        <h2>Research</h2>
+        <p>We conducted interviews with 12 active users of the British Fencing website including Referees, Coaches, Competitors and Parents with children in Fencing, where we asked them a series of prompting questions and ran a brief usability test to gauge the users' current experience using the website.
+The main takeaways involved users finding the amount of content on the website overwhelming, having to browse through information that didn't apply to their specific journey and finding the navigation difficult and frustrating to use because it lacked intuitiveness and convenience.
+Here are some of the key quotes from interviews, that helped confirm the problem of an information overload:
+
+We also conducted Usability Tests with existing users of the website one of our key insights was that:
+Three existing users spoke about feeling that information was placed for internal use rather than for them as fencers.
+Which links to the Conway’s Law theory that suggests British Fencing’s website is structured around internal decisions from seperate teams with seperate priorities, as opposed to one seamless, user-friendly experience for all users . This is especially impactful to information architecture when communication between these teams are not optimised as it can result in a content pile up, without assessment of the relevance of existing content, leading to overlap and an overwhelmed layout.
+We decided to use the System Usability Scale (SUS) Score to give us a metric (SUS score % increase) which we can use to define the success of the project.  The SUS score represents how a satisfaction rating based on how easy it was for users to find the information that they needed to find on the website. (Relative to their specific journey)</p>
+      </section>
+    </div>
+
+    <div class="section-wrapper">
+      <section class="section" id="problem">
+        <h2>Problem</h2>
+        <p>Following user interviews and usability testing, we created two user personas to encompass the needs and preferences of a wide range of British Fencing’s users,  including competitors, coaches, parents, and those new to fencing.
+Alex was chosen as our primary persona, but we knew it was important to keep Sarah in mind through the ideation process as well, since the client had expressed the importance of new users.
+Keeping Alex and Sarah in mind, we ideated problem statements and ‘How Might Wes’ to narrow our focus for ideation.
+‘How might we help Alex save time using the British Fencing Website so that it becomes a source of joy rather than frustration?’ </p>
+      </section>
+    </div>
+
+    <div class="section-wrapper">
+      <section class="section" id="ideation">
+        <h2>Ideation</h2>
+        <p>We decided to follow the process we learned from existing large-scale information architecture case studies, which all began with a card sort to understand how users would naturally categorise the information
+The card sort had 21 respondents, which included a mix of new and existing users. We used a similarity matrix to group related categories which you can see a snippet of here on the right. This allowed us to find clear patterns in the way different users organized the information.
+You can see above the areas that are a darker shade of blue, represents the fact that most people grouped the welfare and safeguarding items together.
+
+Using insights from the similarity matrix, we created a new site map with main and sub-categories, based on the groupings identified in the card sort.
+This new site map directly reflects how users think, which ultimately makes the navigation more intuitive and better aligned with users' needs.
+The site maps are too big to display, feel free to browse them here.
+
+Next, we conducted a tree test to validate the site structure.
+The results gave us insights into what information was easy to find, and what was difficult, and also confirmed whether the restructured categories aligned with user expectations, we then made changes to the site map based on these findings.
+As per the case studies we found, we also wanted to run a closed card sort to ensure accuracy with the categories on our site map, but due to the speed of the sprint we had to remove it from the process. </p>
+      </section>
+    </div>
+
+    <div class="section-wrapper">
+      <section class="section" id="prototype">
+        <h2>Prototype</h2>
+        <p>Post Testing
+We ran the usability test on 7 existing and 2 new users, like before, to find how easy it was for users to find the information they needed to find.
+Here are the key takeaways: Welfare is a vital part of what British Fencing does, and given that users couldn't see it on the top navigation bar, we moved it into the lower navigation and combined it with 'Community' as there was overlapping results between 'Community' and 'Welfare' from the card sort, and decided to only use the top navigation bar as a place for shortcuts. Users felt there was a hierarchy in terms of order of information, for example they felt 'start fencing' should be first as it's welcoming for users new to fencing and 'about us' should be last as it's not about the user.
+Moving to Hi-Fidelity we ran a few accessibility contrast tests and therefore decided to change the red background and white foreground to navy blue background and white foreground text - in order to bring its WCAG score from fail to a perfect AAA. Here's the proposed hi-fidelity prototype to house the new IA. Once again this was not a deliverable given the short sprint frame, the prototype was created as an inspirational concept for our client.
+Here's the proposed hi-fidelity prototype to house the new IA. Once again this was not a deliverable given the short sprint frame, the prototype was created as an inspirational concept for our client.
+
+
+As mentioned before our definition of success was a 100% improvement in 'users being able to find information easily' which was represented through a satisfaction (SUS) score, given by the System Usability Scale. The initial SUS score from British Fencing's current website was 34.5%. We achieved a 146.3% increase.
+Suggesting that our goal of Average SUS score = 85/100
+Reflections
+With just three weeks to get this project over the line, we had to be selective about what we tackled.
+Given more time, we would have: Conducted a closed card sort, and further tree tests to refine the information and create a more accurate user journey.Track navigation success, using time-based metrics to compare the new IA vs the old IA.Run some more accessibility tests to ensure the whole website meets WCAG standards.
+Ultimately, through usability testing, we found that in this case, industry standard is not necessarily synonymous with best practice.
+For example, while the majority of sporting governing bodies used multiple navigation bars, users tended not to notice the content of the top nav bar and could not find what they were looking for. Businesses should also keep Conways Law in mind, arranging information through a lens of "Where will visitors new to the website expect to see this?", rather than "Where can we place this?".</p>
+          <!-- Stack Section -->
+    <div id="stack" class="box">
+      <h1 class="h1"> Stack </h1>
+      <div class="stack">
+        <div class="hovertext-wrapper">
+          <img src="https://blog.greggant.com/images/posts/2019-04-25-figma/Figma.png" class="icons">
+          <span class="hovertext">Figma</span>
+        </div>
+        <div class="hovertext-wrapper">
+          <img src="https://shorturl.at/rupdx" class="icons">
+          <span class="hovertext">JavaScript</span>
+        </div>
+        <div class="hovertext-wrapper">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1200px-Ruby_logo.svg.png" class="icons">
+          <span class="hovertext">Ruby</span>
+        </div>
+        <div class="hovertext-wrapper">
+          <img src="https://shorturl.at/XHJf6" class="icons">
+          <span class="hovertext">HTML</span>
+        </div>
+        <div class="hovertext-wrapper">
+          <img src="https://static1.squarespace.com/static/5d092c5193b409000129adc4/5d092e26c2341b0001fa34dc/6159068fb40bec28e0411224/1688786401407/css+logo.png?format=1500w" class="icons">
+          <span class="hovertext">CSS</span>
+        </div>
+      </div>
+    </div>
+      </section>
+    </div>
+
+  </main>
+
+<script src="js/British-fencing.js"></script>
+</body>
+</html>
