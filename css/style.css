@@ -104,7 +104,6 @@ a:after {
   width: 100%;
   z-index: -1;
   content: "";
-  background: #e6e6e6;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
