@@ -526,20 +526,24 @@ textarea.form-control {
 .js .animate-box {
   opacity: 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .project-info {
-    opacity: 1 !important; /* Always show the text */
-    transform: translateY(0) !important; /* Move it into view */
+    opacity: 1 !important;
     visibility: visible !important;
+    transform: none !important;
+    position: relative !important;
+    background: white; /* optional, for readability */
+    padding: 10px;
   }
 
   .project-box:hover .project-info {
-    /* Disable hover effect */
-    opacity: 1;
-    transform: translateY(0);
-    visibility: visible;
+    /* cancel hover effects */
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
   }
 }
+
 
 /*# sourceMappingURL=style.css.map */
 
